@@ -1,0 +1,7 @@
+Проверить разные состояние потоков, таких как
+- new
+- Runnable
+- Blocked
+- Waiting
+- Time Waiting
+- Terminated;
