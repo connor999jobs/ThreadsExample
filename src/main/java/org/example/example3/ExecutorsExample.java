@@ -1,2 +1,35 @@
-package org.example.example3;public class ExecutorsExample {
+package org.example.example3;
+
+import java.util.Queue;
+import java.util.Random;
+import java.util.concurrent.ConcurrentLinkedQueue;
+
+public class ExecutorsExample {
+    public static void main(String[] args) throws InterruptedException {
+        System.setProperty("java.util.logging.SimpleFormatter.format",
+                "[%1$tT] [%4$-7s] %5$s %n");
+
+        AssemblyLine.startAssemblyLine(new ConcurrentLinkedQueue<>());
+        Thread.sleep(10 * 1000);
+        Queue<String> remainingTasks = AssemblyLine.stopAssemblyLine();
+
+        Thread.sleep(2000);
+
+        System.out.println("\nStarting assembly line again ...");
+
+        AssemblyLine.startAssemblyLine(new ConcurrentLinkedQueue<>(remainingTasks));
+        Thread.sleep(60 * 100);
+        AssemblyLine.stopAssemblyLine();
+    }
+
 }
+
+
+
+
+
+
+
+
+
+

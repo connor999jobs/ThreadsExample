@@ -4,8 +4,6 @@ import lombok.SneakyThrows;
 
 public class BlockedThreadMain {
     public static void main(String[] args) {
-
-
         BlockedThread blockedThread = new BlockedThread();
         blockedThread.blockedThread();
     }

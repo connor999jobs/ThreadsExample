@@ -18,6 +18,15 @@
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
+  <repositories>
+    <repository>
+      <id>com.e-iceblue</id>
+      <name>e-iceblue</name>
+      <url>https://repo.e-iceblue.com/nexus/content/groups/public/</url>
+    </repository>
+  </repositories>
+
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -25,6 +34,32 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.24</version>
+      <scope>provided</scope>
+    </dependency>
+
+
+    <dependency>
+      <groupId>e-iceblue</groupId>
+      <artifactId>spire.pdf</artifactId>
+      <version>8.8.0</version>
+    </dependency>
+
+
+
+
+    <dependency>
+      <groupId>org.apache.pdfbox</groupId>
+      <artifactId>pdfbox</artifactId>
+      <version>1.8.10</version>
+    </dependency>
+
+
+
   </dependencies>
 
   <build>
@@ -71,5 +106,15 @@
         </plugin>
       </plugins>
     </pluginManagement>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>16</source>
+          <target>16</target>
+        </configuration>
+      </plugin>
+    </plugins>
   </build>
 </project>

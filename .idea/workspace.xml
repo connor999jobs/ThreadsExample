@@ -1,17 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f38a7c4-8758-4d7e-b210-f42cfa38946d" name="Changes" comment="" />
+    <list default="true" id="5f38a7c4-8758-4d7e-b210-f42cfa38946d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/example4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/example4/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pdfParser/GetTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/example1/Task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/example1/Task.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/example1/blockedThread/BlockedThreadMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/example1/blockedThread/BlockedThreadMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/example1/newThread/NewThreadMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/example1/newThread/NewThreadMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/example1/runnableThread/RunnableThreadMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/example1/runnableThread/RunnableThreadMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/example1/terminatedThread/TerminatedThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/example1/terminatedThread/TerminatedThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/example1/timeWaitingThread/TimeWaitingThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/example1/timeWaitingThread/TimeWaitingThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/example1/waitingThread/WaitingThreadMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/example1/waitingThread/WaitingThreadMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/example2/SimpleThreadPoolExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/example2/SimpleThreadPoolExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/example3/AssemblyLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/example3/AssemblyLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/example3/ExecutorsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/example3/ExecutorsExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/example3/Task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/example3/Task.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/example4/Task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/example4/Task.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pdfParser/GetLinesFromPDF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pdfParser/GetLinesFromPDF.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2DkrveSZ74XLJyeZSzLSBbRfkAF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -19,9 +55,98 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/konno/Downloads/JavaEducation-master/JavaEducation-master/PdfParser",
+    "nodejs_package_manager_path": "npm"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\konno\Desktop\Java Core\Threads\ThreadsExample\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.GetTable">
+    <configuration name="ExecutorsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.example3.ExecutorsExample" />
+      <module name="ThreadsExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.example3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.pdfParser.GetTable" />
+      <module name="ThreadsExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.pdfParser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.example4.Main" />
+      <module name="ThreadsExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.example4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleThreadPoolExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.example2.SimpleThreadPoolExecutor" />
+      <module name="ThreadsExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.example2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.pdfParser.GetLinesFromPDF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.pdfParser.GetLinesFromPDF" />
+      <module name="ThreadsExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.pdfParser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GetTable" />
+        <item itemvalue="Application.org.example.pdfParser.GetLinesFromPDF" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SimpleThreadPoolExecutor" />
+        <item itemvalue="Application.ExecutorsExample" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -30,7 +155,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661254157630</updated>
+      <workItem from="1661254159721" duration="9375000" />
+      <workItem from="1661273509259" duration="2982000" />
+      <workItem from="1661326272605" duration="5738000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
