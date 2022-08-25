@@ -4,26 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f38a7c4-8758-4d7e-b210-f42cfa38946d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/example4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/example4/Task4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pdfParser/GetTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="5f38a7c4-8758-4d7e-b210-f42cfa38946d" name="Changes" comment="Get Table from Pdf">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pingpong/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pingpong/PingPongSemaphore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/example1/Task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/example1/Task.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/example1/blockedThread/BlockedThreadMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/example1/blockedThread/BlockedThreadMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/example1/newThread/NewThreadMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/example1/newThread/NewThreadMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/example1/runnableThread/RunnableThreadMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/example1/runnableThread/RunnableThreadMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/example1/terminatedThread/TerminatedThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/example1/terminatedThread/TerminatedThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/example1/timeWaitingThread/TimeWaitingThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/example1/timeWaitingThread/TimeWaitingThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/example1/waitingThread/WaitingThreadMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/example1/waitingThread/WaitingThreadMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/example2/SimpleThreadPoolExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/example2/SimpleThreadPoolExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/example3/AssemblyLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/example3/AssemblyLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/example3/ExecutorsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/example3/ExecutorsExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/example3/Task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/example3/Task.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/example4/Task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/example4/Task.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pdfParser/GetLinesFromPDF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pdfParser/GetLinesFromPDF.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,40 +35,27 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/konno/Downloads/JavaEducation-master/JavaEducation-master/PdfParser",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/konno/Downloads/JavaEducation-master/JavaEducation-master/PdfParser&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "PLAIN_TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\konno\Desktop\Java Core\Threads\ThreadsExample\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GetTable">
-    <configuration name="ExecutorsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.example3.ExecutorsExample" />
-      <module name="ThreadsExample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.example3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.org.example.pingpong.Main">
     <configuration name="GetTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.pdfParser.GetTable" />
       <module name="ThreadsExample" />
@@ -137,13 +108,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.example.pingpong.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.pingpong.Main" />
+      <module name="ThreadsExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.pingpong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.pingpong.Main" />
         <item itemvalue="Application.GetTable" />
         <item itemvalue="Application.org.example.pdfParser.GetLinesFromPDF" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.SimpleThreadPoolExecutor" />
-        <item itemvalue="Application.ExecutorsExample" />
       </list>
     </recent_temporary>
   </component>
@@ -157,8 +141,18 @@
       <updated>1661254157630</updated>
       <workItem from="1661254159721" duration="9375000" />
       <workItem from="1661273509259" duration="2982000" />
-      <workItem from="1661326272605" duration="5738000" />
+      <workItem from="1661326272605" duration="5940000" />
+      <workItem from="1661376192149" duration="111000" />
+      <workItem from="1661432337453" duration="1690000" />
     </task>
+    <task id="LOCAL-00001" summary="Get Table from Pdf">
+      <created>1661339716215</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661339716216</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,5 +168,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Get Table from Pdf" />
+    <option name="LAST_COMMIT_MESSAGE" value="Get Table from Pdf" />
   </component>
 </project>
