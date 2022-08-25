@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f38a7c4-8758-4d7e-b210-f42cfa38946d" name="Changes" comment="Get Table from Pdf">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pingpong/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pingpong/PingPongSemaphore.java" afterDir="false" />
+    <list default="true" id="5f38a7c4-8758-4d7e-b210-f42cfa38946d" name="Changes" comment="Add Ping Pong">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/example5/BarberShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/example5/BarberShopCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/example5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/example6/ServerInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/example6/ServerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +58,7 @@
       <recent name="C:\Users\konno\Desktop\Java Core\Threads\ThreadsExample\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.pingpong.Main">
+  <component name="RunManager" selected="Application.org.example.example6.Main">
     <configuration name="GetTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.pdfParser.GetTable" />
       <module name="ThreadsExample" />
@@ -69,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.example4.Main" />
+    <configuration name="org.example.example5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.example5.Main" />
       <module name="ThreadsExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.example4.*" />
+          <option name="PATTERN" value="org.example.example5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleThreadPoolExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.example2.SimpleThreadPoolExecutor" />
+    <configuration name="org.example.example6.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.example6.Main" />
       <module name="ThreadsExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.example2.*" />
+          <option name="PATTERN" value="org.example.example6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.example6.Main" />
+        <item itemvalue="Application.org.example.example5.Main" />
         <item itemvalue="Application.org.example.pingpong.Main" />
         <item itemvalue="Application.GetTable" />
         <item itemvalue="Application.org.example.pdfParser.GetLinesFromPDF" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SimpleThreadPoolExecutor" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +146,8 @@
       <workItem from="1661273509259" duration="2982000" />
       <workItem from="1661326272605" duration="5940000" />
       <workItem from="1661376192149" duration="111000" />
-      <workItem from="1661432337453" duration="1690000" />
+      <workItem from="1661432337453" duration="2608000" />
+      <workItem from="1661440698076" duration="2886000" />
     </task>
     <task id="LOCAL-00001" summary="Get Table from Pdf">
       <created>1661339716215</created>
@@ -152,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661339716216</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add Ping Pong">
+      <created>1661434347940</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661434347940</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +182,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Get Table from Pdf" />
-    <option name="LAST_COMMIT_MESSAGE" value="Get Table from Pdf" />
+    <MESSAGE value="Add Ping Pong" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Ping Pong" />
   </component>
 </project>
