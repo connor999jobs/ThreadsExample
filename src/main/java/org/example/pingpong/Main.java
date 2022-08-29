@@ -10,7 +10,7 @@ public class Main {
 
     private final static Semaphore ping = new Semaphore(1);
     private final static Semaphore pong = new Semaphore(0);
-    private static final int count = 10;
+    private static final int count = 3;
 
 
     @SneakyThrows

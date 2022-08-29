@@ -7,14 +7,12 @@ import lombok.SneakyThrows;
 import java.util.concurrent.Semaphore;
 
 
-@Data
 @AllArgsConstructor
 public class PingPongSemaphore extends Thread {
     private String startPlay;
     private Semaphore first;
     private Semaphore second;
     private int count;
-
 
     @Override
     @SneakyThrows
