@@ -4,18 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f38a7c4-8758-4d7e-b210-f42cfa38946d" name="Changes" comment="Две задачи с Semaphore, и одна задача с Phaser">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dd/MyPropertyFileStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/eccel/test1/CachedThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/eccel/test1/ListOff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/eccel/test1/MainThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/eccel/test2/CallableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/eccel/test2/TaskWithResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/eccel/test3/SimplePriority.java" afterDir="false" />
+    <list default="true" id="5f38a7c4-8758-4d7e-b210-f42cfa38946d" name="Changes" comment="Some examples from Eccel">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eccel/test4_5/EvenChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eccel/test4_5/EvenGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eccel/test4_5/IntGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eccel/test5/AttemptLocking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eccel/test5/MutexEvenGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eccel/test6/AtomicIntegerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shield/cyclicbar/BarAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shield/cyclicbar/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shield/cyclicbar/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shield/exchanger/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shield/exchanger/MakeString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shield/exchanger/UseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shield/phaser/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shield/phaser/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shield/phaser/MyPhaser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shield/phaser/PhaserThreads.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pingpong/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pingpong/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pingpong/PingPongSemaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pingpong/PingPongSemaphore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,13 +70,13 @@
       <recent name="C:\Users\konno\Desktop\Java Core\Threads\ThreadsExample\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SimplePriority">
-    <configuration name="CachedThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.eccel.test1.CachedThreadPool" />
+  <component name="RunManager" selected="Application.Main2">
+    <configuration name="AtomicIntegerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.eccel.test6.AtomicIntegerTest" />
       <module name="ThreadsExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.eccel.test1.*" />
+          <option name="PATTERN" value="org.eccel.test6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CallableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.eccel.test2.CallableDemo" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.shield.cyclicbar.Main" />
       <module name="ThreadsExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.eccel.test2.*" />
+          <option name="PATTERN" value="org.shield.cyclicbar.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyPropertyFileStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dd.MyPropertyFileStore" />
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.shield.phaser.Main2" />
       <module name="ThreadsExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.dd.*" />
+          <option name="PATTERN" value="org.shield.phaser.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleDeamons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.eccel.test4.SimpleDeamons" />
+    <configuration name="org.shield.exchanger.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.shield.exchanger.Main" />
       <module name="ThreadsExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.eccel.test4.*" />
+          <option name="PATTERN" value="org.shield.exchanger.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimplePriority" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.eccel.test3.SimplePriority" />
+    <configuration name="org.shield.phaser.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.shield.phaser.Main" />
       <module name="ThreadsExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.eccel.test3.*" />
+          <option name="PATTERN" value="org.shield.phaser.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SimplePriority" />
-        <item itemvalue="Application.SimpleDeamons" />
-        <item itemvalue="Application.CallableDemo" />
-        <item itemvalue="Application.MyPropertyFileStore" />
-        <item itemvalue="Application.CachedThreadPool" />
+        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.org.shield.phaser.Main" />
+        <item itemvalue="Application.org.shield.exchanger.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.AtomicIntegerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +166,8 @@
       <workItem from="1661693518098" duration="9497000" />
       <workItem from="1661767119182" duration="31000" />
       <workItem from="1661780761420" duration="6219000" />
-      <workItem from="1661801083740" duration="904000" />
+      <workItem from="1661801083740" duration="1803000" />
+      <workItem from="1661854972891" duration="10083000" />
     </task>
     <task id="LOCAL-00001" summary="Get Table from Pdf">
       <created>1661339716215</created>
@@ -183,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661444800886</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Some examples from Eccel">
+      <created>1661802293510</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661802293510</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +218,7 @@
     <MESSAGE value="Get Table from Pdf" />
     <MESSAGE value="Add Ping Pong" />
     <MESSAGE value="Две задачи с Semaphore, и одна задача с Phaser" />
-    <option name="LAST_COMMIT_MESSAGE" value="Две задачи с Semaphore, и одна задача с Phaser" />
+    <MESSAGE value="Some examples from Eccel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some examples from Eccel" />
   </component>
 </project>
